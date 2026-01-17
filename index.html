@@ -46,12 +46,19 @@
       line-height: 1.6;
     }
 
+    .download-buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
     .download-btn {
       display: inline-block;
       background: #4f46e5;
       color: #fff;
-      padding: 1rem 2.5rem;
-      font-size: 1.125rem;
+      padding: 1rem 2rem;
+      font-size: 1rem;
       font-weight: 600;
       border-radius: 8px;
       text-decoration: none;
@@ -108,15 +115,21 @@
       Build a searchable library of your material.
     </p>
 
-    <a href="https://github.com/japper2277/comedy_app/releases/download/v1.0.0/Comedy.OS-1.0.0-arm64.dmg"
-       class="download-btn">
-      Download for Mac
-    </a>
+    <div class="download-buttons">
+      <a href="https://github.com/japper2277/comedy_app/releases/download/v1.0.0/Comedy.OS-1.0.0-arm64.dmg"
+         class="download-btn">
+        Download for Mac
+      </a>
+      <a href="https://github.com/japper2277/comedy_app/releases/download/v1.0.0/Comedy.OS.Setup.1.0.0.exe"
+         class="download-btn">
+        Download for Windows
+      </a>
+    </div>
 
     <div class="meta">
       <span>Version 1.0.0</span>
       <span>•</span>
-      <span>macOS</span>
+      <span>macOS &amp; Windows</span>
     </div>
 
     <div class="features">
